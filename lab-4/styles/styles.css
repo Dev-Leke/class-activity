@@ -1,0 +1,65 @@
+.parent {
+  width: 90%;
+  background-color: skyblue;
+  display: flex;
+}
+
+.box {
+  height: 50px;
+  background-color: #636161;
+}
+
+.two-equal {
+  gap: 10px;
+  padding: 10px;
+}
+
+.two-equal .box {
+  flex: 1 1 50%;
+}
+
+.three-equal {
+  padding: 15px;
+  gap: 15px;
+}
+
+.three-equal .box {
+  flex: 1 1 33.3%;
+}
+
+.three-unequal {
+  padding: 12px;
+  gap: 12px;
+}
+
+.three-unequal .box1 {
+  border: 2px solid black;
+  flex: 2 1;
+}
+.three-unequal .box2 {
+  border: 2px solid black;
+  flex: 1 1;
+}
+.three-unequal .box3 {
+  border: 2px solid black;
+  flex: 1 1;
+}
+.sub-parent {
+  display: flex;
+
+  gap: 12px;
+}
+
+.sub-parent .box {
+  flex: 1 1;
+  border: 2px solid black;
+}
+.four-equal-and-footer {
+  flex-direction: column;
+  padding: 12px;
+  gap: 12px;
+}
+
+.footer {
+  border: 2px solid black;
+}
